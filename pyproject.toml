@@ -1,0 +1,29 @@
+[project]
+name = "vlm-safety-steering"
+version = "0.1.0"
+description = "cross modal safety"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.1.0",
+    "torch>=2.5.0",
+    "torchvision>=0.20.0",
+    "transformers>=4.49.0",
+    "qwen-vl-utils>=0.0.8",
+    "datasets>=2.14.0",
+    "fsspec==2023.9.2",               
+    "pyarrow<17.0.0",               
+    "pillow>=10.0.0",
+    "pandas>=2.0.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "tabulate>=0.9.0",
+    "tqdm>=4.66.0",
+    "openai>=2.54.0",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.0",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu121"
